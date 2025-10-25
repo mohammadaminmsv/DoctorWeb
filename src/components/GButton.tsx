@@ -111,7 +111,7 @@ const GButton = ({
             ></path>
           </svg>
         )}
-        {loading ? "Processing..." : text}
+        {loading ? "بارگیری..." : text}
       </button>
     </div>
   );

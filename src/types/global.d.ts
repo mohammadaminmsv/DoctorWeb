@@ -18,6 +18,11 @@ declare global {
     loading?: boolean;
     size?: "sm" | "md" | "lg";
   }
+
+  interface GAlert {
+    type?: "success" | "info" | "warning" | "error";
+    text?: string;
+  }
 }
 
 export {};

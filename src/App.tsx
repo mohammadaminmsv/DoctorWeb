@@ -1,12 +1,11 @@
-import GButton from "./components/GButton";
 import "./index.css";
 import AppRouter from "./router/AppRouter";
 
 function App() {
   return (
-    <>
+    <div className="font-vazir">
       <AppRouter />
-    </>
+    </div>
   );
 }
 
